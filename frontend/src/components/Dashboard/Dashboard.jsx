@@ -4,7 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 import { notesAPI } from '../../services/api';
 import NoteCard from '../Notes/NoteCard';
 import NoteForm from '../Notes/NoteForm';
-import LoadingSpinner from '../Common/LoadingSpinner';
+import LoadingSpinner from '../common/LoadingSpinner';
 import toast from 'react-hot-toast';
 
 const Dashboard = () => {
