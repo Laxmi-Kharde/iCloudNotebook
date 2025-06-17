@@ -5,7 +5,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import Login from './components/Auth/Login';
 import Signup from './components/Auth/Signup';
 import Dashboard from './components/Dashboard/Dashboard';
-import LoadingSpinner from './components/Common/LoadingSpinner.jsx';
+import LoadingSpinner from './components/common/LoadingSpinner.jsx';
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
