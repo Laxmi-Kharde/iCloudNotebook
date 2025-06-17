@@ -6,7 +6,6 @@ require('dotenv').config();
 const app = express();
 
 const corsOptions = {
-  origin: "https://icloudnotebook.onrender.com",
   origin: "https://icloudnotebook-frontend.onrender.com",
   credentials: true
 }
