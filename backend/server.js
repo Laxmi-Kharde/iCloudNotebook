@@ -5,8 +5,13 @@ require('dotenv').config();
 
 const app = express();
 
+const corsOptions = {
+  origin: "https://icloudnotebook-frontend.onrender.com/",
+  credentials: true
+}
+
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Database connection
